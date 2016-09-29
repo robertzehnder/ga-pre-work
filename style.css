@@ -1,4 +1,17 @@
-h1 {
+        html. body {
+            height: 100%;
+        }
+
+        #wrap {
+            min-height: 100%;
+        }
+
+        #main {
+            overflow: auto;
+            padding-bottom: 50px;
+        }
+
+        h1 {
     		color: rgb(2, 132, 130);
     	}
     	h2 {
@@ -22,12 +35,18 @@ h1 {
             margin: 0 15px 15px 0;
     	}
 
+        .card img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
         #name {
           color: #ff0000;  
         }
 
         nav {
             background-color: rgba(0,0,0,.3);
+            height: 50px;
         }
 
         nav a {
@@ -44,7 +63,23 @@ h1 {
             clear: both;
         }
 
+        button {
+            float: left;
+            margin-bottom: 15px; 
+            height: 45px;
+            width: 175px;
+            font-size: 12px;
+            margin-left: 75px;
+        }
+
+        #boardWrapper {
+            
+        }
+
         footer {
             background-color: rgba(0,0,0,.3);
             text-align: center;
+            margin-top: -50px;
+            height: 50px;
+            clear: both;
         }
