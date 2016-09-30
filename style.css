@@ -4,6 +4,7 @@
 
         #wrap {
             min-height: 100%;
+            margin: 0 50px 0 50px;
         }
 
         #main {
@@ -44,16 +45,41 @@
           color: #ff0000;  
         }
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+        }
+
         nav {
             background-color: rgba(0,0,0,.3);
             height: 50px;
+            padding: 0;
         }
 
-        nav a {
+        /*nav a {
+            display: inline-block;
             text-decoration: none;
-            height: 3em;
+            height: 50px;
             background-color: orange;
-        }
+            font-size: 20px;
+        }*/
 
         a:hover {
             background-color: red;
@@ -72,12 +98,10 @@
             margin-left: 75px;
         }
 
-        #boardWrapper {
-            
-        }
-
         footer {
             background-color: rgba(0,0,0,.3);
+            line-height: 50px;
+            vertical-align: middle;
             text-align: center;
             margin-top: -50px;
             height: 50px;
